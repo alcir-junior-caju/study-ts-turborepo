@@ -1,0 +1,8 @@
+{
+  "apps/**/*.{ts,tsx}": ["yarn lint", "yarn test"],
+  "ui/**/*.{ts,tsx}": ["yarn lint", "yarn test"],
+  "helpers/**/*.{ts,tsx}": ["yarn lint", "yarn test"],
+  "ui/**/*.styles.{ts,tsx}": ["yarn stylelint"],
+  "apps/**/*.styles.{ts,tsx}": ["yarn stylelint"],
+  "*.json": ["yarn prettier --write"]
+}
